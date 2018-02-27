@@ -1,11 +1,4 @@
 {
-  "presets": [
-    ["@babel/preset-env", {
-      "modules": false,
-      "useBuiltIns": "entry",
-      "debug": true
-    }]
-  ],
   "plugins": [
     ["@babel/plugin-transform-runtime", {
       "helpers": false,
